@@ -1,1 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
+:root {
+    --cor-principal: rgb(254, 50, 142);
+    --cor-secundaria: rgb (7, 7, 7);
+    --cor-destaque: rgb (208, 45, 252);
+}
+
+body {
+font-family: 'Inconsolata', sans-serif;
+}
+
+h1, h1, h3 {
+    color:var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color:var(--cor-principal);
+}
+
+footer a:hover {
+    color:var(--cor-destaque)
+}
+
+body.dark-mode {
+    background-color: rgb(94, 92, 109);
+    color: #ffffff;
+}
+
+.dark-mode {
+    margin-top: 20px;
+}
+
+.dark-mode-btn {
+    display: flex;
+}
+
+.dark-mode-btn {
+    background-color: rgb(44, 62,80);
+    color: white;
+    border-radius: 150px;
+}
+
+.dark-mode-btn:hover {
+    background-color: #ffffff;
+    color: rgb(44, 62,80);
+    border-radius: 150px;
+}
